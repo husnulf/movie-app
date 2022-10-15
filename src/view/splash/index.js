@@ -15,6 +15,7 @@ function Splash({navigation}) {
         width: '100%',
         height: '100%',
         justifyContent: 'center',
+        backgroundColor: 'orange',
         alignContent: 'center',
       }}>
       <Text
@@ -22,9 +23,9 @@ function Splash({navigation}) {
           textAlign: 'center',
           fontWeight: 'bold',
           fontSize: 20,
-          color: 'black',
+          color: 'white',
         }}>
-        Splash Screen
+        Movie App
       </Text>
     </View>
   );
